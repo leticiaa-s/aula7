@@ -19,7 +19,7 @@ public class EqXn extends Equacao {
     }
     //#endregion
 
-    //#region regras de negócio
+    //#region Regras de negócio
     public double calculaXn (Delta delta) {
         xn = (- delta.getB() - Math.sqrt(delta.getDelta()));
         return xn / (2 * delta.getA());

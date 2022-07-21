@@ -19,7 +19,7 @@ public class executora {
         System.out.println("Resultado:");
         System.out.println("Delta = " + delta.getDelta());
         if(delta.getDelta() < 0) {
-            System.out.println("Delta negativo - Não é possível calcular sua raiz");
+            System.out.println("Delta negativo : Não é possível calcular sua raiz");
         }else{
             System.out.println("X'= " + x.calculaXn(delta));
             System.out.println("X''= " + x.calculaXp(delta));
